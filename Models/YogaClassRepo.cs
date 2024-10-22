@@ -17,7 +17,7 @@ namespace CourseWork.Models
         List<YogaClass> listYogaClass;
         FirebaseClient firebaseClient;
         private readonly string TABLE_NAME = "yogaclass";
-        private readonly string DATABASE_LINK = "https://yogaapplicationapp-default-rtdb.asia-southeast1.firebasedatabase.app/";
+        private readonly string DATABASE_LINK = "";
         public YogaClassRepo()
         {
             firebaseClient = new FirebaseClient(DATABASE_LINK);
