@@ -13,7 +13,7 @@ namespace CourseWork
     {
         private readonly FirebaseClient firebaseClient;
         private readonly string TABLE_NAME = "purchaseLog";
-        private readonly string DATABASE_LINK = "https://yogaapplicationapp-default-rtdb.asia-southeast1.firebasedatabase.app/";
+        private readonly string DATABASE_LINK = "/";
         private readonly Page page;
         public PurchaseLogRepo(Page page)
         {
