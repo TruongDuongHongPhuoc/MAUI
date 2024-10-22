@@ -12,7 +12,7 @@ namespace CourseWork.Models
     {
         private readonly FirebaseClient firebaseClient;
         private readonly string TABLE_NAME = "course";
-        private readonly string DATABASE_LINK = "https://yogaapplicationapp-default-rtdb.asia-southeast1.firebasedatabase.app/";
+        private readonly string DATABASE_LINK = "FIRE DATABASE LINK/";
 
         public CourseRepo()
         {
