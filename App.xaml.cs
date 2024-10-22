@@ -11,8 +11,8 @@ namespace CourseWork
 
             var authClient = new FirebaseAuthClient(new FirebaseAuthConfig()
             {
-                ApiKey = "AIzaSyAbRrvf1Zgjos0SnUiZflVXgfwX55wX2_0",
-                AuthDomain = "yogaapplicationapp.firebaseapp.com",
+                ApiKey = "API KEY",
+                AuthDomain = "AUTH DOMAIN FIREBASE",
                 Providers = new FirebaseAuthProvider[]
                 {
                     new EmailProvider()
